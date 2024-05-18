@@ -1,64 +1,91 @@
-.container{
-    height: 50vh;
-    width: 100vw;
-    display: grid;
-grid-template-columns: repeat(3,1fr);
-grid-template-rows: repeat(3 ,1fr);
-grid-column: end;
-align-items: center;
-justify-content: center;
-
-
+.container {
+  height: 50vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column: end;
+  align-items: center;
+  justify-content: center;
 }
 
-h2{
-    font-size: 2rem;
-    font-family: 400;
-    align-self: end;
-    /* background-color: violet; */
-    justify-self: start;
+h2 {
+  font-size: 2rem;
+  font-family: 200;
+  align-self: end;
+  justify-self: start;
 }
-span{
-align-items: center;
-justify-content: center;
-
-
+span {
+  align-items: center;
+  justify-content: center;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.process2{
-    align-content: center;
-    grid-column: 3/-1;
-    grid-row: 2/span 1;
-    margin-top: -3rem;
-    font-size: 1.8rem;
-margin-left: 2rem;
-display: flex;
-margin-left: -34rem;
-
-
+.process2 {
+  align-content: center;
+  grid-column: 3/-1;
+  grid-row: 2 / span 1;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  display: flex;
+  align-self: start;
+  margin-left: -29rem;
 }
 
-.process3{
-display: flex;
-
-    font-size: 1.8rem;
-margin-left: 2rem;
-    margin-top:0rem;
-grid-row: 3/span 1;
-    grid-column: 3/-1;
-    margin-top: -6rem;
-margin-left: -36rem;
+.process3 {
+  display: flex;
+  justify-self: start;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-top: -2rem;
+  grid-row: 2 / span 1;
+  grid-column: 3/-1;
+  margin-top: 1rem;
+  margin-left: -31rem;
+  align-self: end;
 }
 
+.ekyc {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  display: flex;
+  align-self: start;
+  justify-self: start;
+  margin-top: 3rem;
+  font-size: 2.3rem;
+}
+.arrow {
+  font-size: 2rem;
+  font-weight: 300;
+  grid-column: 2 / 1;
+  grid-row: 2 / span 1;
+  align-self: center;
+  justify-self: end;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.arrow2 {
+  font-size: 3rem;
+  grid-column: 1 / 1;
+  grid-row: 2 / span 1;
+  align-self: end;
+  justify-self: end;
+}
+.arrow3 {
+  content: "";
+  height: 6rem;
+  width: 6rem;
 
-.ekyc{
-    grid-column: 2/span 1;
-    grid-row: 2/span 1;
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    margin-top: 2rem;
-    font-size: 2rem;
+  border: 1px solid black;
+  align-items: center;
+  border-right: none;
+  margin-top: -1.5rem;
+  display: flex;
+}
+hr {
+  background-color: black;
+  width: 4rem;
+  height: 1px;
+  margin-left: 1rem;
 }
